@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  </head>
+
+  <body>
+    <script src="sketch.js"></script>
+    <h1>Who earns more?</h1>
+    <p> Alter: <input id="Age" value=" "/></p>
+    <p> <label >Beruf: </label>
+      <select id="JobTitle" >
+        <option value="Graphic Designer">Graphic Designer</option>
+        <option value="Software Engineer">Software Engineer</option>
+        <option value="Sales Associate">Sales Associate</option>
+        <option value="Marketing Associate">Marketing Associate</option>
+        <option value="Financial Analyst">Financial Analyst</option>
+        <option value="Data Scientist">Data Scientist</option>
+        <option value="IT">IT</option>
+        <option value="Driver">Driver</option>
+        </select>
+        </p>
+        <p> <label >Abteilung: </label>
+          <select id="Dept" >
+            <option value="Management">Management</option>
+            <option value="Sales">Sales</option>
+            <option value="Administration">Administration</option>
+            <option value="Engineering">Engineering</option>
+            <option value="Operations">Operations</option>
+            </select>
+            </p>
+        <p> Berufserfahrung: <input id="Seniority" value=" "/></p> 
+        <p> Lohn: <input id="BasePay" value=" "/></p>
+        
+
+
+    
+    <p>
+      <button id="train">Train Model</button>
+      <button id="predict">Predict</button>
+    </p>
+
+    <p id= "result"></p>
+  </body>
+</html>

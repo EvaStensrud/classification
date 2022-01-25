@@ -1,0 +1,51 @@
+html, body {
+    margin: 5px;
+    padding: 5px;
+    background-color: deeppink;
+    
+  }
+  
+  canvas {
+    display: block;
+    background-color:deeppink
+  }
+  h1 {
+    color:seashell
+  }
+  
+  p {
+    color: seashell
+  }
+  
+  body, h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  label {
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  input {
+    border: 2px solid rgb(8, 12, 209);
+    border-radius: 4px;
+    background-color:skyblue;
+    color: seashell;
+  }
+  option {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(8, 12, 209);
+    color: seashell;
+    background-color:skyblue
+    
+  }
+  
+  button {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(8, 12, 209);
+    background-color:skyblue;
+    color: seashell
+  }
+  
+  
+  
